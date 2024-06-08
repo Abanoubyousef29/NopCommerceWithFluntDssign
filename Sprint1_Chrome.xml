@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="browser" value=""></parameter>
+
+    <test name="Login with registered data">
+        <classes>
+
+            <class name="TestCases.TC02_Registration">
+                <methods>
+                    <include name="registerWithValidData_P"/>
+                </methods>
+            </class>
+
+            <class name="TestCases.TC01_Home">
+                <methods>
+                    <include name="clickOnLogOutButton_P"/>
+                </methods>
+            </class>
+
+            <class name="TestCases.TC03_Login">
+                <methods>
+                    <include name="loginWithValidDate_P"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+    <test name="Check forgot password flow">
+        <classes>
+
+            <class name="TestCases.TC01_Home">
+                <methods>
+                    <include name="clickOnLogOutButton_P"/>
+                </methods>
+            </class>
+            <class name="TestCases.TC04_ForgetPassword">
+                <methods>
+                    <include name="resetPassword_P"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+</suite>

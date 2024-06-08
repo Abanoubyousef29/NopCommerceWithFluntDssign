@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-08T10:00:47 EET" name="All Test Suite" finished-at="2024-06-08T10:00:47 EET" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- All Test Suite -->
+  <suite started-at="2024-06-08T09:59:43 EET" name="All Test Suite (0)" finished-at="2024-06-08T10:00:47 EET" duration-ms="63532">
+    <groups>
+    </groups>
+    <test started-at="2024-06-08T09:59:43 EET" name="filter by random color" finished-at="2024-06-08T09:59:59 EET" duration-ms="15686">
+      <class name="TestCases.TC05_Product">
+        <test-method is-config="true" signature="openHomePage(java.lang.String)[pri:0, instance:TestCases.TC05_Product@229d10bd]" started-at="2024-06-08T09:59:43 EET" name="openHomePage" finished-at="2024-06-08T09:59:51 EET" duration-ms="7847" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomePage -->
+        <test-method signature="filterByRandomColor_P()[pri:1, instance:TestCases.TC05_Product@229d10bd]" started-at="2024-06-08T09:59:51 EET" name="filterByRandomColor_P" description="filter by random color" finished-at="2024-06-08T09:59:57 EET" duration-ms="5242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterByRandomColor_P -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:TestCases.TC05_Product@229d10bd]" started-at="2024-06-08T09:59:57 EET" name="closeDriver" finished-at="2024-06-08T09:59:59 EET" duration-ms="2519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- TestCases.TC05_Product -->
+    </test> <!-- filter by random color -->
+    <test started-at="2024-06-08T09:59:59 EET" name="Add Random Product To Cart" finished-at="2024-06-08T10:00:15 EET" duration-ms="16055">
+      <class name="TestCases.TC05_Product">
+        <test-method is-config="true" signature="openHomePage(java.lang.String)[pri:0, instance:TestCases.TC05_Product@363ee3a2]" started-at="2024-06-08T09:59:59 EET" name="openHomePage" finished-at="2024-06-08T10:00:06 EET" duration-ms="6976" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomePage -->
+        <test-method signature="addRandomProductToCart_P()[pri:2, instance:TestCases.TC05_Product@363ee3a2]" started-at="2024-06-08T10:00:06 EET" name="addRandomProductToCart_P" description="add random product to cart" finished-at="2024-06-08T10:00:13 EET" duration-ms="6748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addRandomProductToCart_P -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:TestCases.TC05_Product@363ee3a2]" started-at="2024-06-08T10:00:13 EET" name="closeDriver" finished-at="2024-06-08T10:00:15 EET" duration-ms="2325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- TestCases.TC05_Product -->
+    </test> <!-- Add Random Product To Cart -->
+    <test started-at="2024-06-08T10:00:15 EET" name="Add Random Product To whishlist" finished-at="2024-06-08T10:00:31 EET" duration-ms="15984">
+      <class name="TestCases.TC05_Product">
+        <test-method is-config="true" signature="openHomePage(java.lang.String)[pri:0, instance:TestCases.TC05_Product@79b06cab]" started-at="2024-06-08T10:00:15 EET" name="openHomePage" finished-at="2024-06-08T10:00:22 EET" duration-ms="7197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomePage -->
+        <test-method signature="addRandomProductToWhishList_P()[pri:3, instance:TestCases.TC05_Product@79b06cab]" started-at="2024-06-08T10:00:22 EET" name="addRandomProductToWhishList_P" description="add random product to whishlist" finished-at="2024-06-08T10:00:29 EET" duration-ms="6540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addRandomProductToWhishList_P -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:TestCases.TC05_Product@79b06cab]" started-at="2024-06-08T10:00:29 EET" name="closeDriver" finished-at="2024-06-08T10:00:31 EET" duration-ms="2239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- TestCases.TC05_Product -->
+    </test> <!-- Add Random Product To whishlist -->
+    <test started-at="2024-06-08T10:00:31 EET" name="Add Random Product To compare list" finished-at="2024-06-08T10:00:47 EET" duration-ms="15673">
+      <class name="TestCases.TC06_Category">
+        <test-method is-config="true" signature="openHomePage(java.lang.String)[pri:0, instance:TestCases.TC06_Category@47d90b9e]" started-at="2024-06-08T10:00:31 EET" name="openHomePage" finished-at="2024-06-08T10:00:38 EET" duration-ms="6802" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomePage -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:TestCases.TC06_Category@47d90b9e]" started-at="2024-06-08T10:00:45 EET" name="closeDriver" finished-at="2024-06-08T10:00:47 EET" duration-ms="2263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- TestCases.TC06_Category -->
+      <class name="TestCases.TC05_Product">
+        <test-method signature="addRandomProductToCompareList_P()[pri:4, instance:TestCases.TC05_Product@1184ab05]" started-at="2024-06-08T10:00:38 EET" name="addRandomProductToCompareList_P" description="add random product to compare list" finished-at="2024-06-08T10:00:45 EET" duration-ms="6603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addRandomProductToCompareList_P -->
+      </class> <!-- TestCases.TC05_Product -->
+    </test> <!-- Add Random Product To compare list -->
+  </suite> <!-- All Test Suite (0) -->
+</testng-results>

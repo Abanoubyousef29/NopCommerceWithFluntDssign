@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite (5)]" guice-stage="DEVELOPMENT">
+  <parameter name="browserName" value="firefox"/>
+  <test thread-count="5" name="filter by random color(failed)">
+    <classes>
+      <class name="TestCases.TC05_Product">
+        <methods>
+          <include name="filterByRandomColor_P"/>
+          <include name="closeDriver"/>
+          <include name="openHomePage"/>
+        </methods>
+      </class> <!-- TestCases.TC05_Product -->
+    </classes>
+  </test> <!-- filter by random color(failed) -->
+  <test thread-count="5" name="Add Random Product To Cart(failed)">
+    <classes>
+      <class name="TestCases.TC05_Product">
+        <methods>
+          <include name="addRandomProductToCart_P"/>
+          <include name="closeDriver"/>
+          <include name="openHomePage"/>
+        </methods>
+      </class> <!-- TestCases.TC05_Product -->
+    </classes>
+  </test> <!-- Add Random Product To Cart(failed) -->
+</suite> <!-- Failed suite [All Test Suite (5)] -->

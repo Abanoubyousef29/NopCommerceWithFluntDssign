@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <parameter name="browserName" value="firefox"/>
+
+    <test name="filter by random color">
+        <classes>
+
+            <class name="TestCases.TC05_Product">
+                <methods>
+                    <include name="filterByRandomColor_P"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+    <test name="Add Random Product To Cart">
+        <classes>
+
+            <class name="TestCases.TC05_Product">
+                <methods>
+                    <include name="addRandomProductToCart_P"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+    <test name="Add Random Product To whishlist">
+        <classes>
+
+            <class name="TestCases.TC05_Product">
+                <methods>
+                    <include name="addRandomProductToWhishList_P"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+    <test name="Add Random Product To compare list">
+        <classes>
+
+            <class name="TestCases.TC06_Category">
+                <methods>
+                    <include name="chooseRandomCategoryByText_P"/>
+                </methods>
+            </class>
+
+            <class name="TestCases.TC05_Product">
+                <methods>
+                    <include name="addRandomProductToCompareList_P"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <parameter name="browser" value=""></parameter>
+
+    <test name="Check hover random category">
+
+        <classes>
+
+            <class name="TestCases.TC03_Login">
+                <methods>
+                    <include name="loginWithValidDate_P"/>
+                </methods>
+            </class>
+
+            <class name="TestCases.TC06_Category">
+                <methods>
+                    <include name="chooseRandomCategory_P"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+    <test name="Check search product">
+        <classes>
+
+            <class name="TestCases.TC01_Home">
+                <methods>
+                    <include name="searchForProduct_P"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+    <test name="Switch Between Currencies">
+        <classes>
+
+            <class name="TestCases.TC01_Home">
+                <methods>
+                    <include name="switchBetweenCurrencies_P"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+
+</suite>

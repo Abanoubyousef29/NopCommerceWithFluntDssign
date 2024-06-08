@@ -29,7 +29,7 @@ To set up the Nop Commerce application locally, follow these steps:
 ## Installation Steps for Selenium 4 (Java)
 
 1. **Clone Repository**:
-   - git clone <repository_url>
+   - git clone <https://github.com/Abanoubyousef29/NopCommerceWithFluntDssign>
 2. **Navigate to Project Directory**:
    - cd NopCommerce
 3. **Install Dependencies**:

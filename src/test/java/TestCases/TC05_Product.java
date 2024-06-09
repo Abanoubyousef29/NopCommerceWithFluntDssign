@@ -5,7 +5,6 @@ import Pages.P06_Category;
 import Util.Utility;
 import org.openqa.selenium.By;
 import org.testng.Assert;
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class TC05_Product extends Testbase {

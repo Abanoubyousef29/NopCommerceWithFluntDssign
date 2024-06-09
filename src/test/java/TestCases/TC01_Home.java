@@ -2,7 +2,6 @@ package TestCases;
 
 import Pages.P01_HomePage;
 import Pages.P08_SearchPage;
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

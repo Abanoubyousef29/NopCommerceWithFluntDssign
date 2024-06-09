@@ -5,7 +5,6 @@ import Pages.P03_LoginPage;
 import Pages.P04_ForgotPasswordPage;
 import org.openqa.selenium.By;
 import org.testng.Assert;
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import static TestCases.TC02_Registration.email;

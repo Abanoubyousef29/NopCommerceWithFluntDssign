@@ -3,12 +3,7 @@ package Pages;
 import Util.Utility;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
-import java.util.List;
-import java.util.Random;
 
 public class P05_ProductPage {
 
@@ -61,18 +56,15 @@ public class P05_ProductPage {
         return this;
     }
 
-
     public P05_ProductPage clickOnAddToWishlistButton(){
         driver.findElement(ADD_TO_WISH_LIST_BUTTON).click();
         return this;
     }
 
-
     public P05_ProductPage clickOnAddToCompareProductsButton(){
         driver.findElement(ADD_TO_COMPARE_PRODUCT_BUTTON).click();
         return this;
     }
-
 
     public P05_ProductPage clickOnShoppingCartButton(){
         driver.findElement(ADD_TO_SHOPPING_CART_BUTTON).click();

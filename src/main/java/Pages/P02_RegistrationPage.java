@@ -19,8 +19,6 @@ public class P02_RegistrationPage {
 
     private final By EMAIL_TEXT = By.xpath("//input[@id='Email']");
 
-    private final By COMPANY_NAME_TEXT = By.xpath("//input[@id='company']");
-
     private final By PASSWORD_TEXT = By.xpath("//input[@id='Password']");
 
     private final By CONFIRM_PASSWORD_TEXT = By.xpath("//input[@id='ConfirmPassword']");

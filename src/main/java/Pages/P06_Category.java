@@ -36,7 +36,6 @@ public class P06_Category {
         return this;
     }
 
-
     public boolean categoryBodyContainer() {
         return driver.findElement(CATEGORY_Body_PAGE).isDisplayed();
     }

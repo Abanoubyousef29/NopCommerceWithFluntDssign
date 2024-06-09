@@ -24,6 +24,7 @@ public class TC05_Product extends Testbase {
         Thread.sleep(1500);
         randomNumber = Utility.generateRandomNumberBasedOnMaxNumberList(new P05_ProductPage(driver)
                 .colorFilterSize());
+        Thread.sleep(1500);
         new P05_ProductPage(driver).selectRandomColorToFilter(randomNumber);
         Assert.assertTrue(new P05_ProductPage(driver).randomFilterIsSelected(randomNumber));
     }
@@ -32,9 +33,9 @@ public class TC05_Product extends Testbase {
     public void addRandomProductToCart_P() throws InterruptedException {
         new P06_Category(driver).hoverToAnElementByText(parentElementTextToBuy)
                 .hoverToAnElementByTextAndClick(childElementTextToBuy);
-        Thread.sleep(1000);
+        Thread.sleep(1500);
         new P05_ProductPage(driver).selectRandomProduct().clickOnAddToCartButton();
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         Assert.assertTrue(driver.findElement(By.tagName("body")).
                 getText().contains("The product has been added to your shopping cart"));
     }
@@ -43,9 +44,9 @@ public class TC05_Product extends Testbase {
     public void addRandomProductToWhishList_P() throws InterruptedException {
         new P06_Category(driver).hoverToAnElementByText(parentElementTextToBuy)
                 .hoverToAnElementByTextAndClick(childElementTextToBuy);
-        Thread.sleep(1000);
+        Thread.sleep(1500);
         new P05_ProductPage(driver).selectRandomProduct().clickOnAddToWishlistButton();
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         Assert.assertTrue(driver.findElement(By.tagName("body")).
                 getText().contains("The product has been added to your wishlist"));
     }
@@ -54,9 +55,9 @@ public class TC05_Product extends Testbase {
     public void addRandomProductToCompareList_P() throws InterruptedException {
         new P06_Category(driver).hoverToAnElementByText(parentElementTextToBuy)
                 .hoverToAnElementByTextAndClick(childElementTextToBuy);
-        Thread.sleep(1000);
+        Thread.sleep(1500);
         new P05_ProductPage(driver).selectRandomProduct().clickOnAddToCompareProductsButton();
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         Assert.assertTrue(driver.findElement(By.tagName("body")).
                 getText().contains("The product has been added to your product comparison"));
     }

@@ -1,55 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [All Test Suite (2)]" guice-stage="DEVELOPMENT">
-  <parameter name="browserName" value="firefox"/>
-  <test thread-count="5" name="filter by random color(failed)">
-    <classes>
-      <class name="TestCases.TC05_Product">
-        <methods>
-          <include name="closeDriver"/>
-          <include name="filterByRandomColor_P"/>
-          <include name="openHomePage"/>
-        </methods>
-      </class> <!-- TestCases.TC05_Product -->
-    </classes>
-  </test> <!-- filter by random color(failed) -->
-  <test thread-count="5" name="Add Random Product To Cart(failed)">
-    <classes>
-      <class name="TestCases.TC05_Product">
-        <methods>
-          <include name="addRandomProductToCart_P"/>
-          <include name="closeDriver"/>
-          <include name="openHomePage"/>
-        </methods>
-      </class> <!-- TestCases.TC05_Product -->
-    </classes>
-  </test> <!-- Add Random Product To Cart(failed) -->
-  <test thread-count="5" name="Add Random Product To whishlist(failed)">
-    <classes>
-      <class name="TestCases.TC05_Product">
-        <methods>
-          <include name="closeDriver"/>
-          <include name="addRandomProductToWhishList_P"/>
-          <include name="openHomePage"/>
-        </methods>
-      </class> <!-- TestCases.TC05_Product -->
-    </classes>
-  </test> <!-- Add Random Product To whishlist(failed) -->
-  <test thread-count="5" name="Add Random Product To compare list(failed)">
+  <parameter name="browser" value=""/>
+  <test thread-count="5" name="Check hover random category(failed)">
     <classes>
       <class name="TestCases.TC06_Category">
         <methods>
           <include name="closeDriver"/>
           <include name="openHomePage"/>
+          <include name="chooseRandomCategory_P"/>
         </methods>
       </class> <!-- TestCases.TC06_Category -->
-      <class name="TestCases.TC05_Product">
+      <class name="TestCases.TC03_Login">
         <methods>
           <include name="closeDriver"/>
           <include name="openHomePage"/>
-          <include name="addRandomProductToCompareList_P"/>
+          <include name="loginWithValidDate_P"/>
         </methods>
-      </class> <!-- TestCases.TC05_Product -->
+      </class> <!-- TestCases.TC03_Login -->
     </classes>
-  </test> <!-- Add Random Product To compare list(failed) -->
+  </test> <!-- Check hover random category(failed) -->
 </suite> <!-- Failed suite [All Test Suite (2)] -->

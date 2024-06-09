@@ -2,15 +2,15 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [All Test Suite (0)]" guice-stage="DEVELOPMENT">
   <parameter name="browserName" value="firefox"/>
-  <test thread-count="5" name="Add Random Product To Cart(failed)">
+  <test thread-count="5" name="Add Random Product To whishlist(failed)">
     <classes>
       <class name="TestCases.TC05_Product">
         <methods>
-          <include name="addRandomProductToCart_P"/>
+          <include name="addRandomProductToWhishList_P"/>
           <include name="closeDriver"/>
           <include name="openHomePage"/>
         </methods>
       </class> <!-- TestCases.TC05_Product -->
     </classes>
-  </test> <!-- Add Random Product To Cart(failed) -->
+  </test> <!-- Add Random Product To whishlist(failed) -->
 </suite> <!-- Failed suite [All Test Suite (0)] -->
